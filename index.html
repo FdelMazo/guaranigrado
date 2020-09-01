@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>Guarani3W</title>
+  </head>
+  <script>
+    function getAnswer() {
+      let answers = [
+        "La página no recibió la información necesaria.",
+        "No hay materias habilitadas para inscribirte.",
+        "Usuario o clave incorrecto. Intente de nuevo.",
+        "Faltan completar algunos campos. El detalle a continuación.",
+        "FastCGI Error<br>The FastCGI Handler was unable to process the request.",
+        "Te falta/n:<br>Aprobar CBC03:FÍSICA y Aprobar CBC66:ANÁLISIS MATEMÁTICO A.",
+        "504 Gateway Time-out<br>The server didn't respond in time.",
+        `Error Inicial del Sistema S1000<br>[Informix][Informix ODBC Driver] <br>System error ocurred in network function.`,
+        `Error Inicial del Sistema S1000<br>[Informix][Informix ODBC Driver] <br>Database is currently opened by another user.`,
+      ];
+      return answers[Math.floor(Math.random() * answers.length)];
+    }
+
+    window.onload = function () {
+      let body = document.getElementById("mensaje");
+      body.innerHTML = getAnswer();
+    };
+  </script>
+  <body class="cuerpo">
+    <div class="mensaje_ua">
+      <div class="mensaje_ua_titulo">Mensaje</div>
+      <div id="mensaje" class="mensaje_ua_contenido"></div>
+
+      <div class="mensaje_ua_fila_boton"></div>
+    </div>
+
+    <div class="ayuda_rapida">
+      <div class="ayuda_rapida_titulo">Ayuda</div>
+      <div class="ayuda_rapida_contenido">
+        Hacé click en el botón para ingresar de nuevo al sistema.
+      </div>
+      <div class="ayuda_rapida_blinks">
+        <div class="ayuda_rapida_blink">
+          <a href="javascript:window.location.reload(true)">Iniciar sesión</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

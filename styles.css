@@ -1,0 +1,1847 @@
+/*--------- ESTILOS GLOBALES    -----------*/
+.clear {
+  clear: both;
+}
+
+a {
+  color: #020299;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.align_left {
+  text-align: left;
+}
+.align_right {
+  text-align: right;
+}
+.align_center {
+  text-align: center;
+}
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.inline {
+  display: inline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+html,
+input,
+select,
+table,
+tr,
+th,
+td {
+  font-size: x-small;
+}
+
+h1 {
+  font-size: medium;
+}
+
+.menu,
+h2 {
+  font-size: small;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.titulo_pagina {
+  font-family: Tahoma;
+  font-size: small;
+  text-align: left;
+  margin: 1em auto 3em auto;
+  color: #073b6c;
+  width: 90%;
+  border-bottom: thin solid #30425e;
+}
+
+/* ------- Estilos para CAPTCHA LOGICO --------- */
+
+.captcha_box {
+  font-weight: bold;
+  border: thin solid #30425e;
+  text-align: center;
+  padding: 0.3em;
+  margin: 0 auto 1em auto;
+  font-size: small;
+  width: 90%;
+  background-color: white;
+}
+
+.captcha_box_pregunta {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* ------- MENU DE OPERACIONES --------- */
+
+/* Estilo para el
+ * menú de operaciones
+*/
+body.menu {
+  background-color: #f2fbff;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  width: 98%;
+}
+
+.menu h1 {
+  font-family: Tahoma;
+  font-size: small;
+  padding: 0.3em;
+  background-color: #ccddff;
+  background-color: white;
+  color: #073b6c;
+  width: 92%;
+  margin: 0;
+  border: 1px solid #073b6c;
+  border-left: 0;
+}
+
+/* Estilo para el
+ * menú de operaciones
+*/
+#menuSystem {
+  font-family: Tahoma;
+  width: 95%;
+  margin: 0;
+}
+
+/* Estilo para el
+ * menú de operaciones
+*/
+.menuItemTitulo {
+  background-color: #30425e;
+  padding-left: 3px;
+}
+
+.menuItem h2 {
+  background-color: #30425e;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: left;
+  color: #ffffff;
+  cursor: pointer;
+  border-right: 2px solid #425471;
+}
+.menuItem ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  border: 1px solid #425471;
+}
+/* Estilo para el
+ * menú de operaciones
+*/
+.menuItem ul li {
+  list-style: none;
+  width: 100%;
+  background-color: #ffffff;
+}
+.menuItem ul li a {
+  background-color: #ffffff;
+  text-align: left;
+  margin-left: 5px;
+}
+
+#mainMenu a {
+  color: #30425e;
+  font-family: Tahoma;
+  text-decoration: none;
+}
+#mainMenu a:link {
+  color: #30425e;
+  font-family: Tahoma;
+  text-decoration: none;
+}
+
+#mainMenu a:hover {
+  color: #30425e;
+  background-color: #ccddff;
+  font-family: Tahoma;
+  text-decoration: none;
+  display: block;
+}
+
+#mainMenu a.menuItemTitulo_a {
+  color: #ffffff;
+}
+
+#mainMenu a.menuItemTitulo_a:hover {
+  color: #30425e;
+}
+
+/* ----------------------- ENCABEZADO ----------------------- */
+
+body.encabezado {
+  background-color: #ffffff;
+  background-repeat: repeat;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/**
+ * Estilo para la pagina de encabezado
+*/
+
+.encabezado_img {
+  float: left;
+}
+
+.encabezado_img img {
+  border-style: none;
+  border-width: 0px;
+  margin: 0.1em 0 0 0.2em;
+}
+
+/**
+ * Estilo para la pagina de encabezado
+*/
+.encabezado_titulo {
+  display: inline;
+  float: left;
+  font-weight: bold;
+  text-align: left;
+  margin: 1em 0 0 1.1em;
+}
+
+/**
+ * Estilo para el titulo de la
+ * unidad academica
+*/
+.encabezado_ua {
+  font-weight: bold;
+  padding-top: 1em;
+  text-align: center;
+  margin: 0;
+  color: #073b6c;
+}
+
+/**
+ * Estilo para la fecha
+*/
+.encabezado_fecha {
+  display: inline;
+  float: right;
+  font-weight: bold;
+  color: #425471;
+  margin: 1em 1em 0 0;
+  text-align: right;
+}
+
+/* ----------------------- BARRA DE LA APLICACION  ----------------------- */
+
+/**
+ * Estilo para la barra
+*/
+
+.barra {
+  background: #ffffff;
+  border-bottom: thin solid #425471;
+  border-top: thin solid #425471;
+  text-align: right;
+  width: 100%;
+  height: 24px;
+  margin: 0px;
+  padding: 0px;
+}
+
+/**
+ * Estilo para la columna
+ * de la barra que tiene las
+ * las operaciones
+*/
+.barra_operaciones {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #425471;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin: 4px 0 0 4px;
+  padding: 0px;
+  text-align: left;
+  float: left;
+}
+
+/**
+ * Estilo para la columna
+ * de la barra que tiene las
+ * el nombre y el apellido
+*/
+p.barra_nomyapel {
+  font-weight: bold;
+  color: #425471;
+  background-color: #ffffff;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  padding: 0 5px 0 0;
+  margin: 0;
+  text-align: right;
+}
+
+/**
+ * Estilo para la columna
+ * de la barra que tiene las
+ * los botones
+*/
+.barra_botones {
+  font-weight: bold;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  float: right;
+  margin: 0px;
+  padding: 0.6em 0px 1px 0px;
+}
+
+/* ----------------------- ESTILOS DE LOS BOTONES "LINK" ----------------------- */
+
+/**
+ * Estilo por defecto para
+ * los botones "link"
+*/
+
+.boton_link input[type="button"] {
+  margin: auto 10px auto 10px;
+  border: 1px outset #073b6c;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #425471;
+  color: #f2fbff;
+  font: bold 10px sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.boton_link input[type="button"]:hover {
+  margin: auto 10px auto 10px;
+  border: 1px outset #073b6c;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #ffffff;
+  color: #425471;
+  font: bold 10px sans-serif;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.boton_link input[type="image"] {
+  margin: auto 10px auto 10px;
+  border: 1px outset #073b6c;
+  padding: 1px 2px 0 1px;
+  background: #425471;
+  color: #f2fbff;
+  font: bold 10px sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.boton_link input[type="image"]:hover {
+  margin: auto 10px auto 10px;
+  border: 1px outset #073b6c;
+
+  background: #ffffff;
+  color: #425471;
+  font: bold 10px sans-serif;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.boton_link a:link {
+  margin: auto 10px auto 10px;
+  border: 1px outset #073b6c;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #425471;
+  color: #f2fbff;
+  font: bold xx-small sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.boton_link a:active {
+  margin: auto 10px auto 10px;
+  border: 1px outset #073b6c;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #425471;
+  color: #f2fbff;
+  font: bold xx-small sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.boton_link a:visited {
+  margin: auto 10px auto 10px;
+  border: 1px outset #073b6c;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #425471;
+  color: #f2fbff;
+  font: bold 10px sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.boton_link a:hover {
+  margin: auto 10px auto 10px;
+  border: 1px outset #073b6c;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #ffffff;
+  color: #425471;
+  font: bold 10px sans-serif;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.botones_mensajes {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.botones_mensajes input[type="button"] {
+  border: 1px outset #073b6c;
+  width: 19px;
+  height: 15px;
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 0 0 0 0.3em;
+}
+
+.boton_play {
+  background: #425471;
+  background-image: url("/web/20190128082958im_/http://guaranigrado.fi.uba.ar/autogestion/imagenes/play.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ffffff;
+}
+
+.boton_pause {
+  background: #425471;
+  background-image: url("/web/20190128082958im_/http://guaranigrado.fi.uba.ar/autogestion/imagenes/pause.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ffffff;
+}
+
+/* ----------------------- ESTILOS DEL HINT ----------------------- */
+td.hint3w {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  border: thin solid #ffffff;
+  margin: 10px auto 10px auto;
+}
+
+table.hint {
+  border: thin solid #ffffff;
+  background-color: #f2fbff;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+/* ----------------------- ESTILOS DE LAS OPERACIONES ----------------------- */
+
+/**
+ * Estilo por defecto para
+ * el body de todas las paginas de operaciones
+*/
+body.cuerpo {
+  background-color: #f2fbff;
+  background-repeat: repeat;
+  margin: 2em auto;
+  padding: 0;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+/* ------------- ESTILOS PARA LOS FORMULARIOS --------------------------- */
+
+/**
+ * Estilos para el contenido de un formulario
+*/
+.formulario {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  border: thin solid #30425e;
+  width: 95%;
+  padding: 2px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.formulario_submit {
+  margin: auto 10px auto 10px;
+  border: 1px outset #073b6c;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #425471;
+  color: #f2fbff;
+  font: bold 10px sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.formulario_submit:hover {
+  margin: auto 10px auto 10px;
+  border: 1px outset #073b6c;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #ffffff;
+  color: #425471;
+  font: bold 10px sans-serif;
+  text-decoration: underline;
+}
+
+.formulario label {
+  color: #000000;
+  margin-left: 5px;
+}
+
+.formulario fieldset {
+  margin: 0 5px 5px 5px;
+}
+
+/**
+ * Estilos para el contenido de un formulario.
+ * Con layout fijo
+*/
+.formulario_fijo {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  border: thin solid #30425e;
+  width: 90%;
+  margin: 10px auto 10px auto;
+}
+
+/* Estilo (para el contenido de un formulario)
+ * para el header de una tabla
+*/
+.formulario_titulo {
+  font-weight: bold;
+  background-color: #30425e;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 5px;
+  padding: 1px;
+}
+
+a.nav {
+  color: #ffffff;
+}
+
+/* Estilo (para el contenido de un formulario)
+ * de cada una de las filas del formulario
+*/
+tr.formulario {
+  border: thin solid #30425e;
+  /*background-color: #CCDDFF;*/
+  text-align: left;
+  width: 100%;
+  height: 20px;
+}
+
+/* Estilo (para el contenido de un formulario)
+ * para cuando solo se presenta una lista de opciones.
+*/
+tr.formulario_lista {
+  border: thin solid #30425e;
+  /*background-color: #CCDDFF;*/
+  text-align: center;
+  width: 100%;
+  height: 30px;
+}
+
+/* Estilo (para el contenido de un formulario)
+ * para cuando se separa por renglon
+*/
+tr.formulario_renglon {
+  background-color: #ffffff;
+  text-align: left;
+  width: 100%;
+  height: 30px;
+}
+
+tr.formulario_renglon_destacado {
+  background-color: #ccddff;
+  text-align: left;
+  width: 100%;
+  height: 30px;
+}
+
+/* Estilo (para el contenido de un formulario)
+ * para cuando se separa por renglon. Sin control
+ * de altura.
+*/
+.formulario_reng_libre {
+  background-color: #ffffff;
+  text-align: left;
+  width: 100%;
+}
+
+.formulario_reng_libre div {
+  width: 49%;
+  display: block;
+  float: left;
+  margin: 2px;
+}
+
+.formulario_reng_libre textarea {
+  font-size: x-small;
+  margin: 0 0 0 5px;
+}
+
+/**
+ * Fila de botones .
+*/
+.fila_botones_formulario {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: #ccddff;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.formulario_95 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: #ccddff;
+  text-align: right;
+  text-align: center;
+  width: 95%;
+  margin: 1em auto;
+}
+
+/**
+ * Estilo por defecto para
+ * los botones del formulario
+ * EN LA BARRA DE BOTONES se usa con fila_botones_formulario
+*/
+input.form_barra_boton {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #073b6c;
+  background-color: #ccddff;
+  height: 20px;
+  text-align: center;
+  margin: 5px 5px 5px 0px;
+}
+
+/**
+ * Estilo por defecto para
+ * los objetos del formulario
+*/
+input.formulario_boton {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #073b6c;
+  /*background-color: #CCDDFF;*/
+  text-align: center;
+}
+
+/**
+ * Estilo por defecto para
+ * los botones de subir archivo
+ * objetos del formulario
+*/
+input.formulario_file_boton {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #073b6c;
+  height: 20px;
+  text-align: left;
+  margin: 0px 5px 0px 0px;
+}
+
+/**
+ * Estilo por defecto para
+ * los objetos del formulario
+*/
+select.formulario_boton {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #073b6c;
+  border: 1px solid #073b6c;
+  background-color: #ccddff;
+  height: auto;
+  text-align: left;
+  margin: 0 5px 5px 5px;
+}
+
+/**
+ * Estilo por defecto para
+ * los campos texto del formulario
+*/
+input.formulario_texto {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #073b6c;
+  background-color: #ccddff;
+  text-align: left;
+  margin: 0 5px 5px 5px;
+}
+
+/**
+ * Estilo por defecto para
+ * los campos textarea del formulario
+*/
+textarea.formulario_texto {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #073b6c;
+  background-color: #ccddff;
+  height: 80px;
+  text-align: left;
+}
+
+.form_fieldset {
+  padding: 0;
+  margin: 0 auto;
+  width: 95%;
+  border: 0;
+}
+.form_fieldset legend {
+  background-color: #30425e;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 0.3em 5em 0.3em 5em;
+  margin: 0;
+}
+
+.fieldset_left {
+  float: left;
+  height: 100%;
+}
+
+table.normal_ancha {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  width: 100%;
+  border: 1px solid #30425e;
+}
+
+/* ------------- ESTILOS PARA EL FORMULARIO DE LOGIN --------------------------- */
+
+/**
+ * Estilo por defecto para
+ * la tabla de login y de cambio de clave.
+*/
+
+.login {
+  border: thin solid #30425e;
+  width: 50%;
+  margin: 10px auto 10px auto;
+  text-align: right;
+  padding: 2px;
+}
+
+.login div {
+  margin-top: 1em;
+}
+
+.login_center {
+  text-align: center;
+}
+.login_label {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: right;
+}
+
+.login_input {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  margin-right: 35%;
+}
+
+#keyboard {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/**
+ * Fila de botones para
+ * la ventana de login.
+*/
+.fila_botones_login {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: #ccddff;
+  text-align: right;
+  width: 100%;
+}
+
+/* ------------------ TABLA DETALLE NORMAL ---------------------------------------------- */
+
+/**
+ * Estilo para la tablas de
+ * detalle. Se usa para los cortes por carrera, por materia, etc.
+ */
+.detalle {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  background-color: #30425e;
+  color: #30425e;
+  width: 89.5%;
+  margin: 10px auto 10px auto;
+  padding: 0.5%;
+  padding-right: 0;
+}
+
+.detalle_wide {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  background-color: #30425e;
+  color: #30425e;
+  width: 94.5%;
+  margin: 10px auto 10px auto;
+  padding: 0.5%;
+  padding-right: 0;
+}
+
+/*
+ * Para el contenido del detalle
+ * ....
+*/
+.detalle_contenido {
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left;
+  margin-top: 0.3em;
+}
+
+.detalle_contenido_right {
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left;
+  float: right;
+  display: inline;
+  margin-top: 0.3em;
+  padding-right: 15em;
+  width: 40%;
+}
+
+/*
+ * Si quiero resaltar un item lo
+ * resalto con esta clase y <b>...</b>
+*/
+span.detalle_resaltado {
+  font-weight: normal;
+  color: #ffffff;
+  text-align: left;
+}
+
+span.detalle_resaltado {
+  font-size: x-small;
+  font-weight: normal;
+
+  color: #ffffff;
+  text-align: left;
+}
+
+/* ------------------TABLA REPORTE NORMAL ---------------------------------------------- */
+
+/**
+ * Estilos para mostrar una tabla
+ * generica.
+*/
+table.normal {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  border: thin solid #30425e;
+  width: 90%;
+  margin: 0px auto 10px auto;
+}
+
+table.normal caption,
+table.normal_ancha caption,
+table.normal_plana caption {
+  background-color: #30425e;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  height: 15px;
+  width: 500px;
+  padding: 0.2em 0 0 0;
+  margin-top: 2px;
+}
+
+table.normal_ancha caption {
+  width: 100%;
+}
+
+/**
+ * Estilos para mostrar una tabla
+ * generica (sin bordes)
+*/
+table.normal_plana {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  width: 90%;
+  margin: 10px auto 10px auto;
+}
+
+table.normal_plana span {
+  font-weight: bold;
+}
+/* Estilo para el header de una tabla
+ *
+*/
+tr.normal_titulo {
+  font-weight: bold;
+  background-color: #30425e;
+  color: #ffffff;
+  text-align: center;
+}
+
+.normal_titulo {
+  font-weight: bold;
+  background-color: #30425e;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.2em;
+}
+
+/* Estilo para el contenido normal
+ * de cada una de las filas del listado
+*/
+tr.normal {
+  background-color: #ccddff;
+  text-align: left;
+  width: 100%;
+  height: 20px;
+}
+
+tr.normal:hover {
+  border: thin solid #30425e;
+  background-color: #a8c5ff;
+  text-align: left;
+  width: 100%;
+  height: 20px;
+}
+
+/* Estilo para los contenidos
+ * que deben ir centrados.
+*/
+td.normal_centrado {
+  text-align: center;
+}
+
+/* Estilo para el contenido normal
+ * de cada una de las filas del listado
+*/
+
+tr.normal_plana {
+  text-align: left;
+  width: 100%;
+  height: 20px;
+}
+
+/* Estilo para el contenido normal
+ * de cada una de las filas del listado
+ * pero con otro color de fondo para
+ * armar renglones
+*/
+tr.normal_renglon {
+  background-color: #ffffff;
+  text-align: left;
+  width: 100%;
+  height: 20px;
+}
+
+/* Estilo para los titulos
+ * en un subgrupo de las filas.
+*/
+tr.normal_subtitulo {
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+  height: 20px;
+}
+
+/* Estilo para el contenido normal
+ * de cada una de las filas del listado
+ * SELECCIONADO
+*/
+tr.normal_sel {
+  border: thin solid #30425e;
+  background-color: #a8c5ff;
+  text-align: left;
+  width: 100%;
+  height: 20px;
+}
+
+/**
+ * Estilo para los links en una tabla normal
+*/
+.normal A:link {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #073b6c;
+  text-decoration: none;
+}
+
+.normal A:visited {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #073b6c;
+  text-decoration: none;
+}
+
+.normal A:hover {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #073b6c;
+  text-decoration: underline;
+}
+
+/* ----------------------- TABLA PARA REPORTE DE PLAN DE ESTUDIOS ----------------------- */
+.normal_plana_plan_estudios {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  width: 90%;
+  margin: 10px auto 10px auto;
+  border-collapse: collapse;
+}
+
+tr.normal_plana_2 {
+  text-align: left;
+  width: 100%;
+  height: 20px;
+  background-color: #e5f1f4;
+}
+.normal_plana_plan_estudios .normal_titulo td {
+  border-right: 2px solid #f2fbff;
+}
+
+.normal_sin_hover {
+  background-color: #ccddff;
+  text-align: left;
+  height: 20px;
+}
+
+.div_correlativa {
+  height: 15px;
+}
+
+/* ----------------------- AYUDA RAPIDA ----------------------- */
+
+/**
+ * Estilos para mostrar la tabla con
+ * la ayuda breve.
+*/
+.ayuda_rapida {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: thin solid #30425e;
+  width: 50%;
+  padding: 2px;
+  margin: 10px auto 10px auto;
+}
+
+.ayuda_rapida_titulo {
+  background-color: #30425e;
+  color: #ffffff;
+  text-align: right;
+  padding: 1px;
+  margin-bottom: 2px;
+}
+
+.ayuda_rapida_contenido {
+  background-color: #ccddff;
+  color: #073b6c;
+  border-top: 0px;
+  padding: 1em 0 1em 0;
+  text-align: left;
+}
+
+/*
+   Si hay qeu agregar una barra de botones "link"
+   a la ayuda este es el estilo para la
+   fila de botones
+*/
+.ayuda_rapida_blinks {
+  background-color: #ccddff;
+  color: #073b6c;
+  height: 35px;
+  text-align: right;
+}
+
+/*
+   Estilos para los botones link de la ayuda.
+*/
+.ayuda_rapida_blink a:link {
+  margin: auto 10px auto 10px;
+  border: 1px outset #073b6c;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #30425e;
+  color: #f2fbff;
+  font: bold x-small sans-serif;
+  text-decoration: none;
+}
+
+/*
+   Estilos para los botones link de la ayuda.
+*/
+.ayuda_rapida_blink a:active {
+  margin: auto 10px auto 10px;
+  border: 1px outset #073b6c;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #30425e;
+  color: #f2fbff;
+  font: bold x-small sans-serif;
+  text-decoration: none;
+}
+
+/*
+   Estilos para los botones link de la ayuda.
+*/
+.ayuda_rapida_blink a:visited {
+  margin: auto 10px auto 10px;
+  border: 1px outset #073b6c;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #30425e;
+  color: #f2fbff;
+  font: bold 10px sans-serif;
+  text-decoration: none;
+}
+
+/*
+   Estilos para los botones link de la ayuda.
+*/
+.ayuda_rapida_blink a:hover {
+  margin: auto 10px auto 10px;
+  border: 1px outset #073b6c;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #f2fbff;
+  color: #30425e;
+  font: bold 10px sans-serif;
+  text-decoration: underline;
+}
+
+/* ---------------- MENSAJES DE LA UNIDAD ACADEMICA --------------------- */
+
+/**
+ * Estilos para mostrar la tabla con
+ * la ayuda breve.
+*/
+
+.mensaje_ua {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: thin solid #425471;
+  width: 50%;
+  margin: 0em auto 1em auto;
+  padding: 2px;
+}
+
+.mensaje_ua_titulo {
+  background-color: #425471;
+  color: #ffffff;
+  text-align: right;
+  margin-bottom: 2px;
+}
+
+.mensaje_ua_contenido {
+  background-color: #ffffff;
+  color: #073b6c;
+  text-align: left;
+  padding: 1em 0 1em 0;
+}
+
+.mensaje_ua_fila_boton {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: #ccddff;
+  text-align: right;
+  width: 100%;
+  padding: 1em 0 1em 0;
+}
+
+.mensaje_ua_boton {
+}
+
+.mensaje_ua_boton a:link {
+  margin: auto 10px auto 10px;
+  border: 1px outset #073b6c;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #425471;
+  color: #ffffff;
+  font: bold x-small sans-serif;
+  text-decoration: none;
+}
+
+.mensaje_ua_boton a:active {
+  margin: auto 10px auto 10px;
+  border: 1px outset #073b6c;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #425471;
+  color: #ffffff;
+  font: bold x-small sans-serif;
+  text-decoration: none;
+}
+
+.mensaje_ua_boton a:visited {
+  margin: auto 10px auto 10px;
+  border: 1px outset #073b6c;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #425471;
+  color: #ffffff;
+  font: bold 10px sans-serif;
+  text-decoration: none;
+}
+
+.mensaje_ua_boton a:hover {
+  margin: auto 10px auto 10px;
+  border: 1px outset #073b6c;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #ffffff;
+  color: #425471;
+  font: bold 10px sans-serif;
+  text-decoration: underline;
+}
+
+/* -------------------- ESTILOS PARA TABPANES ------------------------------------ */
+
+.tab_pane {
+  color: #000000;
+  background: #f2fbff;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+div.main {
+  text-align: center;
+  color: #425471;
+  margin: 0 auto;
+  /*width: 90%;*/
+  border: 1px solid #425471;
+  background: #f2fbff;
+  padding-bottom: 2em;
+  padding-top: 0.5em;
+}
+
+div.main {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+div.main ul {
+  margin: 1.4em 0em 1.2em 1em;
+}
+
+div.main li {
+  margin: 0em 0em 0em 1.5em;
+  list-style-type: none;
+}
+
+div.main li a {
+  margin: 0em 0.5em 0em 0em;
+}
+
+div.main p {
+  margin: 2px -20px 2px 2px;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  border-width: 0px 0px 0px 0px;
+}
+
+div#menu {
+  margin: 0em 0em 0em 0em;
+  padding: 0em;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+div#menu ul {
+  margin: 0em 0em 0.5em 0em;
+  padding: 0em;
+  list-style-type: none;
+  text-align: left;
+  line-height: 1.5em;
+  border-width: 0px 0px 0px 0px;
+  border-color: #425471;
+  border-style: solid;
+}
+
+div#menu li {
+  margin: auto 2px auto 2px;
+  padding: 0px 0px 6px 0px;
+  display: inline;
+  list-style-type: none;
+  background: #a8c5ff;
+  color: #073b6c;
+  border-width: 1px 1px 0px 1px;
+  border-color: black;
+  border-style: solid;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+div#menu li a {
+  white-space: nowrap;
+}
+
+div#menu li.onpage {
+  margin: auto 2px auto 2px;
+  /*padding: 0px 0px 6px 0xp;*/
+  display: inline;
+  list-style-type: none;
+  background: #f2fbff;
+  border-width: 1px 1px 1px 1px;
+  border-color: #425471 #425471 #f2fbff #425471;
+  border-style: solid;
+}
+
+div#menu li.onpage a {
+  text-decoration: none;
+}
+
+div#menu li.onpage a:hover {
+  background: #f2fbff;
+  color: #073b6c;
+  text-decoration: underline;
+}
+
+div#menu li.oculto a:hover {
+  background: #f2fbff;
+  color: #073b6c;
+  text-decoration: underline;
+}
+
+div#menu li.onpage ul {
+  display: none;
+}
+
+div#menu li.oculto_sel {
+  background: #f2fbff;
+  color: #073b6c;
+}
+
+div#menu li.oculto_sel a {
+  background: #f2fbff;
+  color: #073b6c;
+  text-decoration: underline;
+}
+
+div#menu li.oculto {
+  background: #073b6c;
+  color: #f2fbff;
+}
+
+div#menu li.oculto a {
+  background: #073b6c;
+  color: #f2fbff;
+  text-decoration: none;
+}
+
+/* ------------------------ Estilos para el calendario  -------------------------*/
+
+div.calendar {
+  position: relative;
+}
+
+.calendar,
+.calendar table {
+  border: 1px solid #556;
+  color: #000;
+  cursor: default;
+  background: #f2fbff;
+  font-family: tahoma, verdana, sans-serif;
+}
+
+.calendar .button {
+  text-align: center;
+  padding: 2px;
+}
+
+.calendar .nav {
+  background: #778
+    url(/web/20190128082958im_/http://guaranigrado.fi.uba.ar/autogestion/styles/menuarrow.gif)
+    no-repeat 100% 100%;
+}
+
+.calendar thead .title {
+  font-weight: bold;
+  text-align: center;
+  background: #ffffff;
+  color: #000;
+  padding: 2px;
+}
+
+.calendar thead .headrow {
+  background: #778;
+  color: #ffffff;
+}
+
+.calendar thead .daynames {
+  background: #ccddff;
+}
+
+.calendar thead .name {
+  border-bottom: 1px solid #556;
+  padding: 2px;
+  text-align: center;
+  color: #000;
+}
+
+.calendar thead .weekend {
+  color: #a66;
+}
+
+.calendar thead .hilite {
+  background-color: #425471;
+  color: #000;
+  border: 1px solid #30425e;
+  padding: 1px;
+}
+
+.calendar thead .active {
+  background-color: #425471;
+  padding: 2px 0px 0px 2px;
+}
+
+.calendar tbody .day {
+  width: 2em;
+  color: #456;
+  text-align: right;
+  padding: 2px 4px 2px 2px;
+}
+
+.calendar tbody .day.othermonth {
+  color: #bbb;
+}
+
+.calendar tbody .day.othermonth.oweekend {
+  color: #fbb;
+}
+
+.calendar table .wn {
+  padding: 2px 3px 2px 2px;
+  border-right: 1px solid #000;
+  background: #ccddff;
+}
+
+.calendar tbody .rowhilite td {
+  background: #ccddff;
+}
+
+.calendar tbody .rowhilite td.wn {
+  background: #073b6c;
+}
+
+.calendar tbody td.hilite {
+  background: #073b6c;
+  padding: 1px 3px 1px 1px;
+  border: 1px solid #bbb;
+}
+
+.calendar tbody td.active {
+  background: #a8c5ff;
+  padding: 2px 2px 0px 2px;
+}
+
+.calendar tbody td.selected {
+  font-weight: bold;
+  border: 1px solid #000;
+  padding: 1px 3px 1px 1px;
+  background: #fff;
+  color: #000;
+}
+
+.calendar tbody td.weekend {
+  color: #a66;
+}
+
+.calendar tbody td.today {
+  font-weight: bold;
+  color: #00f;
+}
+
+.calendar tbody .disabled {
+  color: #999;
+}
+
+.calendar tbody .emptycell {
+  visibility: hidden;
+}
+
+.calendar tbody .emptyrow {
+  display: none;
+}
+
+.calendar tfoot .footrow {
+  text-align: center;
+  background: #556;
+  color: #fff;
+}
+
+.calendar tfoot .ttip {
+  background: #fff;
+  color: #445;
+  border-top: 1px solid #556;
+  padding: 1px;
+}
+
+.calendar tfoot .hilite {
+  background: #425471;
+  border: 1px solid #a8c5ff;
+  color: #000;
+  padding: 1px;
+}
+
+.calendar tfoot .active {
+  background: #425471;
+  padding: 2px 0px 0px 2px;
+}
+
+.calendar .combo {
+  position: absolute;
+  display: none;
+  top: 0px;
+  left: 0px;
+  width: 4em;
+  cursor: default;
+  border: 1px solid #655;
+  background: #ccddff;
+  color: #000;
+  z-index: 100;
+}
+
+.calendar .combo .label,
+.calendar .combo .label-IEfix {
+  text-align: center;
+  padding: 1px;
+}
+
+.calendar .combo .label-IEfix {
+  width: 4em;
+}
+
+.calendar .combo .hilite {
+  background: #a8c5ff;
+}
+
+.calendar .combo .active {
+  border-top: 1px solid #30425e;
+  border-bottom: 1px solid #30425e;
+  background: #eef;
+  font-weight: bold;
+}
+
+.calendar td.time {
+  border-top: 1px solid #000;
+  padding: 1px 0px;
+  text-align: center;
+  background-color: #f4f0e8;
+}
+
+.calendar td.time .hour,
+.calendar td.time .minute,
+.calendar td.time .ampm {
+  padding: 0px 3px 0px 4px;
+  border: 1px solid #889;
+  font-weight: bold;
+  background-color: #fff;
+}
+
+.calendar td.time .ampm {
+  text-align: center;
+}
+
+.calendar td.time .colon {
+  padding: 0px 2px 0px 3px;
+  font-weight: bold;
+}
+
+.calendar td.time span.hilite {
+  border-color: #000;
+  background-color: #667;
+  color: #fff;
+}
+
+.calendar td.time span.active {
+  border-color: #f00;
+  background-color: #000;
+  color: #0f0;
+}
+
+/* ----------------------- ESTILOS HEREDADOS DE LA VERSIONES ANTERIORES ----------------------- */
+
+.normalbordo {
+  color: #30425e;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.normalmora {
+  font-weight: bold;
+  color: #425471;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.tituloblancochico {
+  font-weight: bold;
+  color: #ffffff;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.tituloGuarani3w {
+  font-weight: bold;
+  color: #073b6c;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.titulofacultad {
+  color: #073b6c;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.login {
+  font-weight: bold;
+  color: #073b6c;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.encabezado1 {
+  font-weight: bold;
+  color: #ffffff;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.encabezado2 {
+  font-weight: normal;
+  color: #30425e;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.persona {
+  font-weight: bold;
+  color: #ffffff;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.arbol {
+  color: #30425e;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.titulosobrefdoazul {
+  font-weight: bold;
+  color: #ffffff;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.titulosobrefdogris {
+  font-weight: bold;
+  color: #ffffff;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.listamaterias {
+  font-weight: bold;
+  color: #30425e;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.listacarreras {
+  font-weight: bold;
+  color: #425471;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.nombrecampo {
+  font-weight: bold;
+  color: #073b6c;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.contenidocampo {
+  font-weight: bold;
+  color: #073b6c;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.encabezadotablas {
+  font-weight: bold;
+  color: #425471;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.contenidotablas {
+  color: #30425e;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.titulomensajes {
+  font-weight: bold;
+  color: #ffffff;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.mensajes {
+  font-weight: bold;
+  color: #30425e;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.comentarios {
+  font-weight: bold;
+  color: #073b6c;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.links {
+  font-weight: bold;
+  color: #30425e;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.observaciones {
+  font-weight: normal;
+  color: #073b6c;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.botones {
+  font-weight: normal;
+  color: #073b6c;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-variant: normal;
+}
+
+.dcabecera {
+  background-color: #a8c5ff;
+}
+
+.dtexto2 {
+  color: #30425e;
+  font-family: Arial;
+}
+
+.dtexto3 {
+  color: #30425e;
+  font-family: Arial;
+}
+
+.dtexto1 {
+  color: #30425e;
+  font-family: Verdana;
+}
+
+.dencabezado {
+  background-color: #ccddff;
+}
+
+.dtexto_enc {
+  color: #ffffff;
+  font-family: Arial;
+}
+
+.dtexto4 {
+  color: #30425e;
+  font-family: Arial;
+}
+
+.dcorte {
+  background-color: #2a6aa8;
+}
+
+.dtexto_corte {
+  color: #073b6c;
+  font-family: Arial;
+}
+
+/* Estilo para docentes
+ * gerencial y administrativo
+*/
+
+caption.normal_titulo {
+  font-size: 1em;
+  font-weight: bold;
+
+  background-color: #30425e;
+  color: #ffffff;
+  text-align: center;
+}
+
+/*
+     FILE ARCHIVED ON 08:29:58 Jan 28, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:33:48 Sep 01, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.156
+  RedisCDXSource: 8.887
+  captures_list: 466.597
+  LoadShardBlock: 434.882 (3)
+  PetaboxLoader3.datanode: 2210.396 (5)
+  load_resource: 2502.082
+  CDXLines.iter: 18.592 (3)
+  esindex: 0.011
+  PetaboxLoader3.resolve: 351.342 (3)
+  exclusion.robots.policy: 0.146
+*/
